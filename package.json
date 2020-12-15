@@ -1,7 +1,7 @@
 {
   "name": "@twohundredcouches/dark-mode",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/js/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/twohundredcouches/dark-mode.git"
