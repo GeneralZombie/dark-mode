@@ -1,0 +1,44 @@
+.dark-mode-toggle
+  $width: 3rem
+  $height: 1.5rem
+
+  input[type=checkbox]
+    height: 0
+    width: 0
+    visibility: hidden
+
+    &:checked + label
+      background: black
+
+      &:after
+        left: calc(100% - 0.075rem)
+        transform: translateX(-100%)
+
+  label
+    cursor: pointer
+    text-indent: -9999px
+    width: $width
+    height: $height
+    background: grey
+    display: block
+    border-radius: $width
+    position: relative
+
+
+    &:after
+      content: ''
+      position: absolute
+      top: $height * 0.05
+      left: $height * 0.05
+      width: $height * 0.9
+      height: $height * 0.9
+      background: #fff
+      border-radius: $height * 0.9
+      transition: 0.3s
+
+      &:active
+        width: $width * 0.65
+
+
+
+

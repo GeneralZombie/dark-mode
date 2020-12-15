@@ -1,0 +1,38 @@
+.dark-mode-toggle input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+.dark-mode-toggle input[type=checkbox]:checked + label {
+  background: black;
+}
+.dark-mode-toggle input[type=checkbox]:checked + label:after {
+  left: calc(100% - 0.075rem);
+  transform: translateX(-100%);
+}
+.dark-mode-toggle label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 3rem;
+  height: 1.5rem;
+  background: grey;
+  display: block;
+  border-radius: 3rem;
+  position: relative;
+}
+.dark-mode-toggle label:after {
+  content: "";
+  position: absolute;
+  top: 0.075rem;
+  left: 0.075rem;
+  width: 1.35rem;
+  height: 1.35rem;
+  background: #fff;
+  border-radius: 1.35rem;
+  transition: 0.3s;
+}
+.dark-mode-toggle label:after:active {
+  width: 1.95rem;
+}
+
+/*# sourceMappingURL=style.css.map */
