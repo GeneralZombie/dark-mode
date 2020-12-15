@@ -5,7 +5,7 @@ const Default = {
     target: 'body',
     darkModeClassName: 'dark',
     lightModeClassName: '',
-    initialState: LIGHT_MODE,
+    initialState: 'light', // or 'dark'
     inputId: 'dark-mode-input',
     labelText: 'Dark Mode'
 }
