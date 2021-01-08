@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1610110482381" clover="3.2.0">
+  <project timestamp="1610110482382" name="All files">
+    <metrics statements="62" coveredstatements="61" conditionals="81" coveredconditionals="67" methods="22" coveredmethods="22" elements="165" coveredelements="150" complexity="0" loc="62" ncloc="62" packages="3" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="52" coveredstatements="52" conditionals="66" coveredconditionals="60" methods="18" coveredmethods="18"/>
+      <file name="dark-mode.js" path="/Users/bk/dev/wefra-digitaler-baukasten/dark-mode/dist/webpack:/DarkMode/src/dark-mode.js">
+        <metrics statements="52" coveredstatements="52" conditionals="66" coveredconditionals="60" methods="18" coveredmethods="18"/>
+        <line num="1" count="742" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="27" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="55" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="16" type="stmt"/>
+        <line num="79" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="96" count="17" type="stmt"/>
+        <line num="124" count="17" type="stmt"/>
+        <line num="125" count="17" type="stmt"/>
+        <line num="129" count="8" type="stmt"/>
+        <line num="131" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="135" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="136" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="139" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="144" count="5" type="stmt"/>
+        <line num="152" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="155" count="7" type="stmt"/>
+        <line num="156" count="7" type="stmt"/>
+        <line num="157" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="162" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="166" count="7" type="stmt"/>
+        <line num="167" count="7" type="stmt"/>
+        <line num="171" count="7" type="stmt"/>
+        <line num="172" count="7" type="stmt"/>
+        <line num="175" count="7" type="stmt"/>
+        <line num="176" count="7" type="stmt"/>
+        <line num="187" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="197" count="8" type="stmt"/>
+        <line num="205" count="7" type="stmt"/>
+        <line num="206" count="7" type="stmt"/>
+        <line num="208" count="7" type="stmt"/>
+        <line num="249" count="7" type="stmt"/>
+        <line num="250" count="7" type="stmt"/>
+        <line num="255" count="15" type="cond" truecount="5" falsecount="2"/>
+        <line num="256" count="15" type="stmt"/>
+        <line num="257" count="15" type="stmt"/>
+        <line num="258" count="15" type="stmt"/>
+        <line num="259" count="15" type="stmt"/>
+        <line num="264" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="webpack">
+      <metrics statements="7" coveredstatements="6" conditionals="12" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="bootstrap" path="/Users/bk/dev/wefra-digitaler-baukasten/dark-mode/dist/webpack:/DarkMode/webpack/bootstrap">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+      </file>
+      <file name="startup" path="/Users/bk/dev/wefra-digitaler-baukasten/dark-mode/dist/webpack:/DarkMode/webpack/startup">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="8" type="stmt"/>
+      </file>
+      <file name="universalModuleDefinition" path="/Users/bk/dev/wefra-digitaler-baukasten/dark-mode/dist/webpack:/DarkMode/webpack/universalModuleDefinition">
+        <metrics statements="1" coveredstatements="1" conditionals="10" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="2" count="8" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="webpack.runtime">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="define property getters" path="/Users/bk/dev/wefra-digitaler-baukasten/dark-mode/dist/webpack:/DarkMode/webpack/runtime/define property getters">
+        <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="8" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="hasOwnProperty shorthand" path="/Users/bk/dev/wefra-digitaler-baukasten/dark-mode/dist/webpack:/DarkMode/webpack/runtime/hasOwnProperty shorthand">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="16" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

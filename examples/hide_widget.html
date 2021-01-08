@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title>Dark Mode Example - Without Widget</title>
+
+    <style>
+        body {
+            background: white;
+            color: #333333;
+            transition: all 0.1s ease-in-out;
+        }
+        .dark-mode-active {
+            background: #333333;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<main>
+    <h1>Dark Mode Example - Without Widget</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, distinctio ea esse ex illo ipsum officia placeat
+        provident quam quidem ratione repellendus totam vel veritatis!</p>
+
+    <button onclick="darkMode.on()">On</button>
+    <button onclick="darkMode.off()">Off</button>
+    <button onclick="darkMode.toggle();">Toggle</button>
+</main>
+<script src="../dist/dark-mode.js"></script>
+<script>
+    const darkMode = new DarkMode({hideWidget: true});
+</script>
+</body>
+</html>

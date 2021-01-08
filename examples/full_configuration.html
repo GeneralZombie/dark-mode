@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title>Dark Mode Example - Full Configuration</title>
+
+    <style>
+        body {
+            background: white;
+            color: #333333;
+            transition: all 0.1s ease-in-out;
+        }
+        .dark-mode-active {
+            background: #333333;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: flex-end;
+        }
+        header ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+<header>
+    <ul>
+        <li id="dark-mode-widget"></li>
+    </ul>
+</header>
+<main>
+    <h1>Dark Mode Example - Full Configuration</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, distinctio ea esse ex illo ipsum officia placeat
+        provident quam quidem ratione repellendus totam vel veritatis!</p>
+</main>
+
+<script src="../dist/dark-mode.js"></script>
+<script>
+    new DarkMode({
+        container: 'body',
+        darkModeClassName: 'dark-mode-active',
+        lightModeClassName: 'light-mode-active',
+        defaultDarkMode: true,
+        remember: true,
+        usePrefersColorScheme: true,
+        widgetContainer: '#dark-mode-widget',
+        widgetClassName: 'dark-mode-widget',
+        useStyle: true,
+        widgetBackgroundLight: '#009aff',
+        widgetBackgroundDark: '#00ff00',
+        widgetToggleLight: '#ffc800',
+        widgetToggleDark: '#ff0000',
+        widgetSize: 2,
+        widgetTransitionDuration: '0.3s',
+        hideWidget: false,
+        ariaLabelText: 'Toggle Dark Mode'
+    });
+
+    document.getElementsByTagName('body')[0].addEventListener(
+        'darkModeChanged', function(e) {
+            console.log(e.detail);
+        }
+    )
+</script>
+</body>
+</html>
