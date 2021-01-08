@@ -29,7 +29,6 @@ class DarkMode {
             ...DefaultOptions,
             ...options
         }
-        this.id = this._uniqid();
 
         this.containerElement = document.querySelector(this.options.container);
         if (!this.containerElement) {
