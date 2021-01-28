@@ -33,7 +33,7 @@ yarn add @twohundredcouches/dark-mode
 ## Usage
 
 ```js
-import darkMode from "@twohundredcouches/dark-mode";
+import DarkMode from "@twohundredcouches/dark-mode";
 
 new DarkMode();
 ```
